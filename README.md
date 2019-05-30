@@ -1,7 +1,5 @@
 # Azure-Storage-Accounts-Backup
 
-## Azure Devops CI build running Azcopy
-
 ### Configure Json file with your environment data.
 
 Replace the placeholders by the following values from Azure portal:
