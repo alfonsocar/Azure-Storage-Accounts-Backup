@@ -1,7 +1,5 @@
 # Azure-Storage-Accounts-Backup
 
-## Azure Devops CI build running Azcopy
-
 ### Configure Json file with your environment data.
 
 Replace the placeholders by the following values from Azure portal:
@@ -9,8 +7,6 @@ Replace the placeholders by the following values from Azure portal:
 - {azure-environment-code}: the environment code in azure
 
 - {key-vault-name}: the name of the key vault generated in your security resource group
-
-- {sf-cluster-name}: the name of the service fabric cluster generated in your infrastructure resource group
 
 - {storage-account-name-1}: the name of the storage account in the resourcegroup you want to backup
 
@@ -31,3 +27,7 @@ Replace the placeholders by the following values from Azure portal:
 - Run the following script in powershell as admin:
 
   Backup-Storage-Accounts.ps1 -EnvironmentCode "{azure-environment-code}"
+
+### Running powershell script in Azure DevOps Pipelines.
+The following blog post will explain what to do:
+https://blog.miguelbernard.com/did-you-backup-you-azure-storage-accounts/
