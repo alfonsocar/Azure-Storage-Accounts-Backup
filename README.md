@@ -29,3 +29,7 @@ Replace the placeholders by the following values from Azure portal:
 - Run the following script in powershell as admin:
 
   Backup-Storage-Accounts.ps1 -EnvironmentCode "{azure-environment-code}"
+
+### Running powershell script in Azure DevOps Pipelines.
+The following blog post will explain what to do:
+https://blog.miguelbernard.com/did-you-backup-you-azure-storage-accounts/
