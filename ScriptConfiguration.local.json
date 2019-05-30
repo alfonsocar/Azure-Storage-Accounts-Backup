@@ -1,0 +1,20 @@
+{
+  "environmentCode": "{azure-environment-code}",
+  "properties": {
+    "keyVault": {
+      "name": "{key-vault-name}"
+    },
+    "srcStorageAccounts": [
+      {
+        "storageAccountName": "{storage-account-name-1}",
+        "resourceGroup": "{resource-group-name-1}"
+      },
+      {
+        "storageAccountName": "{storage-account-name-2}",
+        "resourceGroup": "{resource-group-name-2}"
+      }
+    ],
+    "destStorageAccountName": "{destination-storage-account-name}",
+    "destResourceGroup": "{destination-resource-group-name}"
+  }
+}
