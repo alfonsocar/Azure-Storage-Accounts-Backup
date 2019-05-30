@@ -10,8 +10,6 @@ Replace the placeholders by the following values from Azure portal:
 
 - {key-vault-name}: the name of the key vault generated in your security resource group
 
-- {sf-cluster-name}: the name of the service fabric cluster generated in your infrastructure resource group
-
 - {storage-account-name-1}: the name of the storage account in the resourcegroup you want to backup
 
 - {storage-account-name-2}: the name of the storage account in the resourcegroup you want to backup
